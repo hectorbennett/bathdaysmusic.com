@@ -1,0 +1,49 @@
+html,
+body {
+    background-color: rgb(13, 22, 26);
+    color: #FFF;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1,
+.h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    cursor: default;
+}
+
+a {
+    color: rgb(152, 228, 255);
+}
+
+a:hover {
+    color: rgb(255, 152, 191);
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: rgb(152, 228, 255);
+    border-color: rgb(152, 210, 255);
+}
+
+.btn-primary:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 152, 191);
+    border-color: rgb(255, 120, 174);
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(152, 210, 255);
+    border-width: 3px;
+    outline: 0;
+    box-shadow: none;
+}
